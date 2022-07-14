@@ -41,7 +41,7 @@ export const HomeScreen = () => {
                         >Pokedex</Text>
                     )}
 
-                    renderItem={({ item, index }) => (
+                    renderItem={({ item }) => (
                         <PokemonCard pokemon={item} />
                     )}
 
